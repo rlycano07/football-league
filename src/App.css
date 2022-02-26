@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.table-heading-content{
+  display: flex;
+  align-items: center;
+}
+
+.table-heading{
+  color:rgb(70, 51, 51);
+  /* background-color: #9875D1; */
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.table-image{
+  padding-top: 15px;
+  width: 200px;
+  height: 70px;
+}
+
+.table-head{
+  background-color: #9875D1;
+}
+
+.tbody-contents{
+}
+
+.table-head{
+  background-color: #9875D1;
+  border:#9875D1;
+}
+
+table {
+  table-layout:fixed ;
+  width: 100%;
+}
+
+th,
+td {
+  width: 20px;
+}
+
+.flexible{
+  width: 50px;
+}
+
+.tbody-contents-squad{
+  text-align: center;
+}
+
+.squad-table{
+  padding: 0px;
+  justify-content:space-around;
+}
+
+.squad-table-head{
+  background-color: #9875D1;
+  justify-content:space-around;
+  display: flex;
+  font-weight: bold;
+  padding-bottom: 3px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.squad-table-head-content{
+  border-top: none;
+  padding: 5px;
+  padding-top: 8px;
+}
+
+.squad-table-body{
+  justify-content:space-around;
+  display: flex;
+  padding-top: 5px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+
+.lineups p{
+  margin-bottom:1px;
+}
