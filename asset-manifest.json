@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/football-league-template/static/css/main.851f586b.css",
+    "main.js": "/football-league-template/static/js/main.674489c1.js",
+    "static/js/787.ea6c6a48.chunk.js": "/football-league-template/static/js/787.ea6c6a48.chunk.js",
+    "index.html": "/football-league-template/index.html",
+    "main.851f586b.css.map": "/football-league-template/static/css/main.851f586b.css.map",
+    "main.674489c1.js.map": "/football-league-template/static/js/main.674489c1.js.map",
+    "787.ea6c6a48.chunk.js.map": "/football-league-template/static/js/787.ea6c6a48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.851f586b.css",
+    "static/js/main.674489c1.js"
+  ]
+}
