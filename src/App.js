@@ -92,6 +92,11 @@ function App() {
           </div>
         </div>
       </div>
+      <div class="update-container">
+       <em><p2>League Table last updated on: 27/02/2022</p2></em><br/>
+       <em><p2>© Sunday League 2022</p2></em>
+
+      </div>
       {/* <div class="table-responsive">
         <div class="table-heading-content">
           <h2 class="table-heading">Goals</h2>

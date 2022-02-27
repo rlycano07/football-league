@@ -91,3 +91,8 @@ td {
 .lineups p{
   margin-bottom:1px;
 }
+
+.update-container{
+  padding-top: 10px;
+  font-size: 10px;
+}
