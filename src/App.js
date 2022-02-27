@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from 'react-bootstrap';
+import image from './a.PNG';
 
 function App() {
   return (
@@ -8,8 +9,11 @@ function App() {
       {/* <div>
         <img class="navbar-logo" src='logo192.png'/>
       </div> */}
-      <img class="img-fluid table-image" alt="Responsive image" src='logo192.png'/>
       <div class="table-responsive">
+        <div class="table-image-background">
+          {/* <img class="img-fluid table-image" alt="Responsive image" src='logo192.png'/> */}
+          <img src={image}  class="img-fluid table-image" alt="Responsive image"/>
+        </div>
         <div class="table-heading-content">
           <h2 class="table-heading">Standings</h2>
         </div>

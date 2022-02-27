@@ -24,6 +24,12 @@
   height: 70px;
 }
 
+.table-image-background{
+  background-color: rgb(255, 255, 255);
+  padding-top: 3px;
+  padding-bottom: 8px;
+}
+
 .table-head{
   background-color: #9875D1;
 }
