@@ -1,6 +1,21 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
+
+.loading-animation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-component{
+  animation: components-load 1200ms ease-out;
+}
+
 
 .table-heading-content{
   display: flex;
@@ -95,4 +110,16 @@ td {
 .update-container{
   padding-top: 10px;
   font-size: 10px;
+}
+
+
+@keyframes components-load{
+  0%{
+    transform: translateY(-100%);
+  }
+
+  100%{
+    transform: translateY(0%);
+  }
+
 }
