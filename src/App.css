@@ -12,6 +12,7 @@
   justify-content: center;
 }
 
+
 .single-component{
   animation: components-load 1200ms ease-out;
 }
@@ -110,6 +111,14 @@ td {
 .update-container{
   padding-top: 10px;
   font-size: 10px;
+}
+
+.team-logo-image{
+  margin-top: -18px;
+  margin-right: 3px;
+  padding-right: 2px;
+  width: 24px;
+  height: 24px;
 }
 
 

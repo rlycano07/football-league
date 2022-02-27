@@ -2,6 +2,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar} from 'react-bootstrap';
 import image from './a.PNG';
+import teamLogo from './team-logo.png';
+import teamLogo2 from './team-logo-2.png';
 import React, {useState, useEffect} from 'react';
 import HashLoader from "react-spinners/HashLoader";
 
@@ -64,7 +66,11 @@ function App() {
             <tbody class="tbody-contents">
                 <tr>
                     <th scope="row">1</th>
-                    <td class="flexible">Penshurst United</td>
+                    <td class="flexible">
+                      <div class="teams">
+                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>PFC
+                      </div>
+                    </td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
@@ -76,7 +82,11 @@ function App() {
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td class="flexible">FC Rockdale</td>
+                    <td class="flexible">
+                      <div class="teams">
+                        <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FCR
+                      </div>
+                    </td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
@@ -99,10 +109,15 @@ function App() {
             <div class="squad-table">
               <div class="squad-table-head">
                 <div class="squad-table-head-content">
-                  Penshurst United
+                  <div class="teams">
+                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Penshurst United
+                  </div>
+                  
                 </div>
                 <div class="squad-table-head-content">
-                  FC Rockdale
+                  <div class="teams">
+                        <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FC Rockdale
+                  </div>                  
                 </div>
               </div>
               <div class="squad-table-body">
