@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/football-league/static/css/main.851f586b.css",
-    "main.js": "/football-league/static/js/main.33185d9a.js",
+    "main.css": "/football-league/static/css/main.5fa0516d.css",
+    "main.js": "/football-league/static/js/main.88a8409b.js",
     "static/js/787.ea6c6a48.chunk.js": "/football-league/static/js/787.ea6c6a48.chunk.js",
+    "static/media/a.PNG": "/football-league/static/media/a.7785547ba0b7161901d0.PNG",
     "index.html": "/football-league/index.html",
-    "main.851f586b.css.map": "/football-league/static/css/main.851f586b.css.map",
-    "main.33185d9a.js.map": "/football-league/static/js/main.33185d9a.js.map",
+    "main.5fa0516d.css.map": "/football-league/static/css/main.5fa0516d.css.map",
+    "main.88a8409b.js.map": "/football-league/static/js/main.88a8409b.js.map",
     "787.ea6c6a48.chunk.js.map": "/football-league/static/js/787.ea6c6a48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.851f586b.css",
-    "static/js/main.33185d9a.js"
+    "static/css/main.5fa0516d.css",
+    "static/js/main.88a8409b.js"
   ]
 }
