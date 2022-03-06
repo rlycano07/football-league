@@ -90,17 +90,24 @@ td {
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
+.fixtures{
+  padding-bottom: 0px;
+}
+
 .squad-table-head-content{
   border-top: none;
   padding: 5px;
   padding-top: 8px;
 }
 
+.matchday-border{
+  border-bottom: 1px solid rgb(255, 255, 255);;
+}
 .squad-table-body{
   justify-content:space-around;
   display: flex;
   padding-top: 5px;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(196, 196, 196);
   padding-bottom: 10px;
 }
 
@@ -121,6 +128,33 @@ td {
   height: 24px;
 }
 
+
+
+.update-container-fixtures{
+  padding-top: 0px;
+}
+
+.score{
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.matchday{
+  font-size: 12px !important;
+}
+
+.goals{
+  padding-top: 5px !important;
+}
+
+.squad{
+  padding-top: 0px !important;
+}
+
+.standings{
+  padding-bottom: 0px !important;
+}
 
 @keyframes components-load{
   0%{
