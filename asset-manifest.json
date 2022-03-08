@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/football-league/static/css/main.0de0b67b.css",
-    "main.js": "/football-league/static/js/main.7dcefd47.js",
+    "main.js": "/football-league/static/js/main.f576a45c.js",
     "static/js/787.ea6c6a48.chunk.js": "/football-league/static/js/787.ea6c6a48.chunk.js",
     "static/media/gloves.png": "/football-league/static/media/gloves.0801f05e2c49feb8c696.png",
-    "static/media/team-logo.png": "/football-league/static/media/team-logo.753966d57f3525dc1dc7.png",
+    "static/media/team-logo.png": "/football-league/static/media/team-logo.599d60ae1564f7ca225b.png",
+    "static/media/team-logo-2.png": "/football-league/static/media/team-logo-2.24f887d28839199b65c7.png",
     "static/media/boot.png": "/football-league/static/media/boot.c19a83d78a61511f3b61.png",
     "static/media/aa.png": "/football-league/static/media/aa.f12552b14baa7dcd2f52.png",
-    "static/media/team-logo-2.png": "/football-league/static/media/team-logo-2.769ceccd7bf15a8523c7.png",
     "index.html": "/football-league/index.html",
     "main.0de0b67b.css.map": "/football-league/static/css/main.0de0b67b.css.map",
-    "main.7dcefd47.js.map": "/football-league/static/js/main.7dcefd47.js.map",
+    "main.f576a45c.js.map": "/football-league/static/js/main.f576a45c.js.map",
     "787.ea6c6a48.chunk.js.map": "/football-league/static/js/787.ea6c6a48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0de0b67b.css",
-    "static/js/main.7dcefd47.js"
+    "static/js/main.f576a45c.js"
   ]
 }
