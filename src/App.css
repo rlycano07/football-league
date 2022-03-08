@@ -17,6 +17,10 @@
   animation: components-load 1200ms ease-out;
 }
 
+.single-component-goals{
+  animation: components-load-goals 1200ms ease-out;
+}
+
 
 .table-heading-content{
   display: flex;
@@ -152,13 +156,27 @@ td {
   padding-top: 0px !important;
 }
 
+
+
 .standings{
   padding-bottom: 0px !important;
 }
 
+
 @keyframes components-load{
   0%{
     transform: translateY(-100%);
+  }
+
+  100%{
+    transform: translateY(0%);
+  }
+
+}
+
+@keyframes components-load-goals{
+  0%{
+    transform: translateY(-50%);
   }
 
   100%{

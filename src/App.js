@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import {Nav, Navbar} from 'react-bootstrap';
 import image from './aa.png';
 import teamLogo from './team-logo.png';
 import boot from './boot.png';
@@ -8,6 +7,7 @@ import gloves from './gloves.png';
 import teamLogo2 from './team-logo-2.png';
 import React, {useState, useEffect} from 'react';
 import HashLoader from "react-spinners/HashLoader";
+import {Carousel} from "react-bootstrap";
 
 
 function App() {
@@ -68,96 +68,73 @@ function App() {
             <tbody class="tbody-contents">
                 
                 <tr>
-                    <th scope="row">2</th>
+                    <th scope="row">1</th>
+
+                    {/* place first team */}
+
+
                     <td class="flexible">
                       <div class="teams">
-                        <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FCR
+                        {/* <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/> */}
+                        FCR
                       </div>
                     </td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>3</td>
                     <td>2</td>
                     <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>0</td>
                     <td>3</td>
+
+
+
                 </tr>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">2</th>
+
+                    {/* place second team */}
                     <td class="flexible">
                       <div class="teams">
-                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>PFC
+                        {/* <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/> */}
+                        HMD
                       </div>
                     </td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>1</td>
                     <td>2</td>
-                    <td>3</td>
-                    <td>-1</td>
+                    <td>1</td>
                     <td>0</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>3</td>
+
+
                 </tr>
             </tbody>
             </table>
           </div>
         </div>
         
-        <div class="single-component">
-          <div class="table-responsive squad">
-            <div class="table-heading-content squad">
-              <h2 class="table-heading squad">Squad</h2>
-            </div>
-            <div class="squad-table">
-              <div class="squad-table-head">
-                <div class="squad-table-head-content">
-                  <div class="teams">
-                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Penshurst United
-                  </div>
-                  
-                </div>
-                <div class="squad-table-head-content">
-                  <div class="teams">
-                        <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FC Rockdale
-                  </div>                  
-                </div>
-              </div>
-              <div class="squad-table-body">
-                <div class="lineups">
-                    <p>Prawshant</p>
-                    <p>Sudeep</p>
-                    <p>Anish</p>
-                    <p>Sagar</p>
-                    <p>Nabeen</p>
-                    <p>Ujjwal</p>
-                </div>
-                <div class="lineups">
-                    <p>Prabhu</p>
-                    <p>Saroj</p>
-                    <p>Rushan</p>
-                    <p>Rajendra</p>
-                    <p>Subash</p>
-                    <p>Dharma</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <div class="single-component">
           <div class="table-responsive">
             <div class="table-heading-content">
               <h2 class="table-heading fixtures">Fixtures</h2>
             </div>
+            
+            
+            
             <div class="squad-table-fixtures">
-            <div class="matchday">
-              <em><p3>MatchDay 1 of 12 Date: 7/03/2022</p3></em><br/>
-            </div>
+              <div class="matchday">
+                <em><p3>MatchDay 1 of 24 Date: 6/03/2022</p3></em><br/>
+              </div>
               <div class="squad-table-head matchday-border">
                 <div class="squad-table-head-content">
                   <div class="teams">
-                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Penshurst United
+                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Himalayan Dukes
                   </div>
                 </div>
                 <div class="score">
@@ -182,12 +159,52 @@ function App() {
                 </div>
               </div>
             </div>
+
+
+
+
+            <div class="squad-table-fixtures">
+              <div class="matchday">
+                <em><p3>MatchDay 2 of 24 Date: 7/03/2022</p3></em><br/>
+              </div>
+              <div class="squad-table-head matchday-border">
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Himalayan Dukes
+                  </div>
+                </div>
+                <div class="score">
+                  <div class="teams">
+                        2
+                  </div>                  
+                </div>
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                        -
+                  </div>                  
+                </div>
+                <div class="score">
+                  <div class="teams">
+                        1
+                  </div>                  
+                </div>
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                        <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FC Rockdale
+                  </div>                  
+                </div>
+              </div>
+            </div>
+
+
+
+
           </div>
         </div>
 
         {/* //Goals  */}
 
-        <div class="single-component goals">
+        <div class="single-component-goals goals">
           <div class="table-responsive">
             <div class="table-heading-content">
               <h2 class="table-heading">Goals</h2>
@@ -198,7 +215,6 @@ function App() {
                   <th>#</th>
                   <th class="flexible">Name</th>
                   <th class="flexible">Club</th>
-                  <th>MP</th>
                   <th>Goals</th>
                 </tr>
             </thead>
@@ -213,15 +229,14 @@ function App() {
                     </td>
                     <td class="flexible">
                       <div class="teams">
-                        PFC
+                        HMD
                       </div>
                     </td>
-                    <td>1</td>
-                    <td>1</td>
+                    <td>2</td>
                 </tr>
 
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">2</th>
                     <td class="flexible">
                       <div class="teams">
                         Dharma 
@@ -233,11 +248,10 @@ function App() {
                       </div>
                     </td>
                     <td>1</td>
-                    <td>1</td>
                 </tr>
 
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">3</th>
                     <td class="flexible">
                       <div class="teams">
                         Rajendra
@@ -249,11 +263,10 @@ function App() {
                       </div>
                     </td>
                     <td>1</td>
-                    <td>1</td>
                 </tr>
 
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">4</th>
                     <td class="flexible">
                       <div class="teams">
                         Rushan 
@@ -265,11 +278,10 @@ function App() {
                       </div>
                     </td>
                     <td>1</td>
-                    <td>1</td>
                 </tr>
 
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">5</th>
                     <td class="flexible">
                       <div class="teams">
                         Sudeep
@@ -277,10 +289,39 @@ function App() {
                     </td>
                     <td class="flexible">
                       <div class="teams">
-                      PFC
+                      HMD
                       </div>
                     </td>
                     <td>1</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">6</th>
+                    <td class="flexible">
+                      <div class="teams">
+                        Sagar
+                      </div>
+                    </td>
+                    <td class="flexible">
+                      <div class="teams">
+                      HMD / FCR
+                      </div>
+                    </td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">7</th>
+                    <td class="flexible">
+                      <div class="teams">
+                        Anjan
+                      </div>
+                    </td>
+                    <td class="flexible">
+                      <div class="teams">
+                      HMD
+                      </div>
+                    </td>
                     <td>1</td>
                 </tr>
             </tbody>
@@ -288,8 +329,55 @@ function App() {
           </div>
         </div>
 
+
+
+        <div class="single-component">
+          <div class="table-responsive squad">
+            <div class="table-heading-content squad">
+              <h2 class="table-heading squad">Squad</h2>
+            </div>
+            <div class="squad-table">
+              <div class="squad-table-head">
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                        <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Himalayan Dukes
+                  </div>
+                  
+                </div>
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                        <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FC Rockdale
+                  </div>                  
+                </div>
+              </div>
+              <div class="squad-table-body">
+                <div class="lineups">
+                    <p>Prawshant</p>
+                    <p>Sudeep</p>
+                    <p>Anish</p>
+                    <p>Dipsagar</p>
+                    <p>Nabeen</p>
+                    <p>Ujjwal</p>
+                    <p>Bidur</p>
+                    <p>Anjan</p>
+                </div>
+                <div class="lineups">
+                    <p>Prabhu</p>
+                    <p>Saroj</p>
+                    <p>Rushan</p>
+                    <p>Rajendra</p>
+                    <p>Subash</p>
+                    <p>Dharma</p>
+                    <p>Sameer</p>
+                    <p>Sagar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="update-container">
-        <em><p2>League Table last updated on: 7/03/2022</p2></em><br/>
+        <em><p2>League Table last updated on: 8/03/2022</p2></em><br/>
         <em><p2>© Sunday League 2022</p2></em>
         </div>
       </div> 
