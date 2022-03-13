@@ -79,14 +79,14 @@ function App() {
                         FCR
                       </div>
                     </td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>4</td>
-                    <td>4</td>
-                    <td>0</td>
                     <td>3</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>6</td>
 
 
 
@@ -101,13 +101,13 @@ function App() {
                         HMD
                       </div>
                     </td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>0</td>
                     <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>4</td>
-                    <td>4</td>
-                    <td>0</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>-2</td>
                     <td>3</td>
 
 
@@ -196,7 +196,38 @@ function App() {
               </div>
             </div>
 
-
+            <div class="squad-table-fixtures">
+              <div class="matchday">
+                <em><p3>MatchDay 3 of 24 Date: 14/03/2022</p3></em><br/>
+              </div>
+              <div class="squad-table-head matchday-border">
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                  <img src={teamLogo}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>Himalayan Dukes
+                  </div>
+                </div>
+                <div class="score">
+                  <div class="teams">
+                        1
+                  </div>                  
+                </div>
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                        -
+                  </div>                  
+                </div>
+                <div class="score">
+                  <div class="teams">
+                        3
+                  </div>                  
+                </div>
+                <div class="squad-table-head-content">
+                  <div class="teams">
+                  <img src={teamLogo2}  class="team-logo-image img-fluid table-image" alt="Responsive image"/>FC Rockdale
+                  </div>                  
+                </div>
+              </div>
+            </div>
 
 
           </div>
@@ -232,11 +263,41 @@ function App() {
                         HMD
                       </div>
                     </td>
-                    <td>2</td>
+                    <td>3</td>
                 </tr>
 
                 <tr>
                     <th scope="row">2</th>
+                    <td class="flexible">
+                      <div class="teams">
+                        Shubash
+                      </div>
+                    </td>
+                    <td class="flexible">
+                      <div class="teams">
+                        FCR
+                      </div>
+                    </td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">3</th>
+                    <td class="flexible">
+                      <div class="teams">
+                        Sameer
+                      </div>
+                    </td>
+                    <td class="flexible">
+                      <div class="teams">
+                        FCR
+                      </div>
+                    </td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">-</th>
                     <td class="flexible">
                       <div class="teams">
                         Dharma 
@@ -251,7 +312,7 @@ function App() {
                 </tr>
 
                 <tr>
-                    <th scope="row">3</th>
+                    <th scope="row">-</th>
                     <td class="flexible">
                       <div class="teams">
                         Rajendra
@@ -266,7 +327,7 @@ function App() {
                 </tr>
 
                 <tr>
-                    <th scope="row">4</th>
+                    <th scope="row">-</th>
                     <td class="flexible">
                       <div class="teams">
                         Rushan 
@@ -281,7 +342,7 @@ function App() {
                 </tr>
 
                 <tr>
-                    <th scope="row">5</th>
+                    <th scope="row">-</th>
                     <td class="flexible">
                       <div class="teams">
                         Sudeep
@@ -296,7 +357,7 @@ function App() {
                 </tr>
 
                 <tr>
-                    <th scope="row">6</th>
+                    <th scope="row">-</th>
                     <td class="flexible">
                       <div class="teams">
                         Sagar
@@ -311,7 +372,7 @@ function App() {
                 </tr>
 
                 <tr>
-                    <th scope="row">7</th>
+                    <th scope="row">-</th>
                     <td class="flexible">
                       <div class="teams">
                         Anjan
@@ -369,7 +430,7 @@ function App() {
                     <p>Subash</p>
                     <p>Dharma</p>
                     <p>Sameer</p>
-                    <p>Sagar</p>
+                    <p>Pukar</p>
                 </div>
               </div>
             </div>
@@ -377,7 +438,7 @@ function App() {
         </div>
 
         <div class="update-container">
-        <em><p2>League Table last updated on: 8/03/2022</p2></em><br/>
+        <em><p2>League Table last updated on: 14/03/2022</p2></em><br/>
         <em><p2>© Sunday League 2022</p2></em>
         </div>
       </div> 
